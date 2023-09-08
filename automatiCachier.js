@@ -68,16 +68,17 @@ class automatiCachier {
 
     
 }
-
+//creando usuario
 const Daniela = new user("Daniela Nieto","Dani","1234");
 const Bibian = new user("Bibian Castro","Bibi", "2431");
 
 //const isAutentication = autenticar("Daniela","2345");
 //if(isAutentication===true){"Bienvenido"}
+//creando cuenta 
 const acountDaniela = new automatiCachier(Daniela, 500, 1);
 const acountBibian=new automatiCachier(Bibian, 200, 1 )
 
-
+// funciones mostrando
 acountDaniela.showMyMoney()
 acountDaniela.addMoney(500);
 acountDaniela.removeMoney(100);
